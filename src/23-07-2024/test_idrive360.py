@@ -10,7 +10,8 @@ from selenium.webdriver.common.by import By
 
 @pytest.mark.smoke
 @allure.title("Verify that login is working in iDrive website")
-@allure.description("Verifying the warning notice as Your free trial has expired message after login.")
+@allure.description("Verifying the warning notice as Your free trial has expired message after login."
+                    )
 def test_sign_in_to_iDrive_360():
     driver = webdriver.Chrome()
     driver.get("https://www.idrive360.com/enterprise/login/")
