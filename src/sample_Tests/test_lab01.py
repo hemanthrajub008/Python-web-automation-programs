@@ -14,3 +14,4 @@ def test_open_vwologin():
     print(driver.session_id)
     driver.maximize_window()
     assert driver.title == "Login - VWO"
+
